@@ -29,4 +29,21 @@ body {
   height: 100vh;
 }
 
+header {
+  background: #262626;
+  color: white;
+  height: 50px;
+}
+header .nav ul {
+  list-style: none;
+  display: flex;
+}
+header .nav ul li {
+  margin-left: 5px;
+}
+header .nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=main.css.map */

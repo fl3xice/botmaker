@@ -33,3 +33,23 @@ background: #fafafa;
 	align-items: center;
 	height: 100vh;
 }
+
+header {
+	background: #262626;
+	color: white;
+	height: 50px;
+	.nav {
+		ul {
+			list-style: none;
+			display: flex;
+			li {
+				margin-left: 5px;
+				a {
+					color: white;
+					text-decoration: none;
+				}
+			}
+		}
+		
+	}
+}
