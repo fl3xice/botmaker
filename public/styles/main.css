@@ -19,6 +19,7 @@ body {
 }
 .error-404 img {
   width: 250px;
+  margin-bottom: 35px;
 }
 
 .centered {
