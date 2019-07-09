@@ -1,2 +1,6 @@
-# botmaker
-Application for creating bots for various instant messengers and social networks
+## Bot Maker
+
+*веб-приложение для создания ботов для мессенджеров и социальных сетей*
+
+ - [ ] Лучший выбор
+ - [ ] Лучшая поддержка
