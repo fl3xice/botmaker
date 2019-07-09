@@ -13,5 +13,9 @@ $router->match('GET', '/', function() {
 	require "pages/mainwindow.php";
 });
 
+$router->set404(function () { 
+echo "Страница не найдена";;
+});
+
 // Run it!
 $router->run();
