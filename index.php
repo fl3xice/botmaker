@@ -4,12 +4,12 @@ require __DIR__ . '/vendor/autoload.php';
 
 // Create Router instance
 $router = new \Bramus\Router\Router();
-$router-> setBasePath ( ' / ' );
+
 // Define routes
 $router->match('GET', 'test', function() {
 	require "pages/test.php";
 });
-$router->match('GET', '/', function() {
+$router->all('/', function() {
 	require "pages/mainwindow.php";
 });
 
