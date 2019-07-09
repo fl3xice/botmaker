@@ -30,7 +30,7 @@ if(isset($_POST['reg_ok'])){
                                                      password=`".$password."`, 
                                                      telefon='telefon',
                                                      login=`".$login."`, 
-                                                     ip=`".$ip."`); 
+                                                     ip=`".$ip."`"); 
                     $id = mysql_insert_id();
                     $sql_res = mysql_query("SELECT * FROM reg WHERE id=$id");
                     $arr = mysql_fetch_assoc($sql_res);			
