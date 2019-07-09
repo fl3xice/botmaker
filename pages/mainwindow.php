@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
 </head>
 <body>
-	<h1>Hello / Привет</h1>
 
+	<h1>Hello / Привет</h1>
 
 </body>
 </html>

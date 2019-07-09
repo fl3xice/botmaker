@@ -12,6 +12,9 @@ $router->match('GET', 'test', function() {
 $router->all('/', function() {
 	require "pages/mainwindow.php";
 });
+$router->all('auth', function() {
+	require "pages/auth.php";
+});
 
 $router->set404(function () { 
 require "pages/404.php";
