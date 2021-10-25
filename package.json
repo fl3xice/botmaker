@@ -1,0 +1,26 @@
+{
+  "name": "botmaker",
+  "version": "1.0.0",
+  "description": "WebApp",
+  "main": "public/js/node.js",
+  "dependencies": {
+    "animate.css": "^3.7.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fl3xice/botmaker.git"
+  },
+  "keywords": [
+    "botmaker"
+  ],
+  "author": "flexice",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fl3xice/botmaker/issues"
+  },
+  "homepage": "https://github.com/fl3xice/botmaker#readme"
+}
